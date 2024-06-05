@@ -11,7 +11,7 @@
 /* Add your custom styles here */
 body {
     font-family:"Poppins", sans-serif;
-    background-color: #f2f2f2;
+    background-color:white;
 }
 
 #header{
@@ -218,5 +218,148 @@ body {
     right: 10px;
     bottom: 15px;
 }
+#off-banner {
+    background-image: url('img/banner/b2.jpg');
+    background-size: cover;
+    /* background-position: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 80px;
+    width:100%;
+    height: 40vh;   
+    padding: 5px;
+}
+
+#off-banner h4{
+    color: #ebebeb;
+    font-size: 30px;
+}
+#off-banner h1{
+    color: #ebebeb;
+    font-size: 40px;
+}
+
+#off-banner button{
+    background-color: #ebebeb;
+    padding: 5px;
+    margin: 3px;
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 25px;
+}
+.banner2{
+    width: 100%;
+}
+.row1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50vh;
+    padding: 30px 100px 30px 100px;
+    
+}
+
+.row1 .f1{
+    background-image: url('img/banner/b17.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.row1 .f2{
+    background-image: url('img/banner/b10.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.row1 .f1 h3,
+.row1 .f2 h3{
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    line-height: 30px;
+    padding: 20px 0 20px 0;
+}
+
+.row1 .f1 h1,
+.row1 .f2 h1{
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    
+}
+.row1 .f1 h4,
+.row1 .f2 h4{
+    color: white;
+    font-size: 10px;
+    padding: 5px 0 5px 0;
+}
+
+.row1 .f1 button,
+.row1 .f2 button{
+    padding: 5px;
+    width: fit-content;
+    border: solid;
+    background-color: transparent;
+    border-radius: 15px;
+    font-size: 15px;
+    color: #ebebeb;
+    margin-top: 5px;
+}
+
+.row2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 30px 100px 30px 100px;
+    height: 45vh; 
+    margin-top: 0;
+}
+
+.row2 .first{
+    background-image: url(img/banner/b7.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 33.3%;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 20px;
+
+}
+.row2 .second{
+    background-image: url(img/banner/b18.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 33.3%;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 20px;
+
+}
+.row2 .third{
+    background-image: url(img/banner/b4.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 33.3%;
+    padding: 20px;
+    margin: 5px;
+    border-radius: 20px;
+
+}
+
 
 
