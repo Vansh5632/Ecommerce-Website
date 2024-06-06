@@ -258,7 +258,7 @@ body {
     flex-direction: row;
     width: 100%;
     height: 50vh;
-    padding: 30px 100px 30px 100px;
+    padding: 0px 100px 0px 100px;
     
 }
 
@@ -321,7 +321,7 @@ body {
     display: flex;
     flex-direction: row;
     width: 100%;
-    padding: 30px 100px 30px 100px;
+    padding: 10px 100px 10px 100px;
     height: 45vh; 
     margin-top: 0;
 }
@@ -360,6 +360,72 @@ body {
     border-radius: 20px;
 
 }
+
+.row2 .first h1,
+.row2 .second h1,
+.row2 .third h1{
+    font-size: 20px;
+    text-align: left;
+    justify-content: center;
+    color: #e3e6f3;
+}
+
+.row2 .first h2,
+.row2 .second h2,
+.row2 .third h2{
+    font-size: 15px;
+    text-align: left;
+    justify-content: center;
+    color:aqua;
+}
+
+footer{
+    margin-top: 30px;
+}
+.newsletter{
+    background-image: url('img/banner/b14.png');
+    background-color: #1a1a1a;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.newsletter .write{
+    display: flex;
+    flex-direction: column;
+    color: #ebebeb;
+    padding: 10px;
+    align-items: left;
+    justify-content: center;
+}
+
+.newsletter .email{
+    display: inline;
+    margin: auto;
+    justify-content: center;
+    padding: 10px;
+}
+.newsletter .email input{
+    width: 400px ;
+    height:40px ;
+    padding-left: 20px;
+    border-radius: 20px;
+}
+
+.newsletter .email button{
+    width: 100px;
+    height: 40px;
+    background-color: #088178;
+    border: white solid 1px;
+    border-radius: 20px;
+    color: #ebebeb;
+}
+
+
 
 
 
